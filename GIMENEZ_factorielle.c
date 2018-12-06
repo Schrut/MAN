@@ -5,6 +5,7 @@
 int factorielle (int n)
 {
     int i, R;
+    //On initialise la variable résultat à 1 qui l'élément neutre du produit
     R = 1;
     for (i=2; i <= n; i++)
         R = R * i;
@@ -13,11 +14,6 @@ int factorielle (int n)
 
 int main()
 {   
-    /*int N;
-    printf("Entrer un entier pour calculer sa factorielle\n");
-    scanf("%d",&N);
-    printf("La factorielle de %d est %d! = %d\n",N,N,factorielle(N));*/
-
     int i, max;
     max = 10;
 

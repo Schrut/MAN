@@ -1,5 +1,5 @@
 
-EXE:=GIMENEZ_factorielle
+EXE:=ex3
 
 all: clean $(EXE)
 
