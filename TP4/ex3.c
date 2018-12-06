@@ -18,12 +18,17 @@ int main()
     p = tab;
     q = tab;
 
-    for (i = 0 ; i <4  ; i++)
+
+    printf("Affichage du tableau initial : \n");
+    for (i = 0 ; i < 5 ; i++)
     {
+            printf("*p = %d\n",*q);
             q += 1;
-               // printf("*p = %d\n",*q);
-    }
-   
+    } 
+
+    q -= 1;
+
+   printf("Affichage du tableau ""retourné"" : \n");    
     for (i = 0 ; i < 5 ; i++)
     {
 
@@ -36,11 +41,5 @@ int main()
 
         printf("*p = %d\n",tab2[i]); 
     }
-/*
-        for (i = 0 ; i < 5 ; i++)
-    {
-            printf("*p = %d\n",*p);
-            p += 1;
-    }*/
     return 0;
 }

@@ -1,5 +1,5 @@
 
-EXE:=ex3
+EXE:=ex4
 
 all: clean $(EXE)
 

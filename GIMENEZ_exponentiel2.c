@@ -17,12 +17,16 @@ int estim_n()
     double est;
     do
     {
+        //On incrémente i jusqu'à que la première conditions soit vérifié
         i++;
         est = 1./factorielle(i);
     }while ( est > 0.0001 );
 
+    //On teste si la deuxième condition est vérifié
     if ( (1./factorielle(i-1)) > 0.0001)
         return i;
+    
+    //Si la condition n'est pas vérifié on renvoit une erreur
     else 
     {
         printf("!Erreur Condition!");

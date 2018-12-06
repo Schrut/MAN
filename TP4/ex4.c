@@ -10,12 +10,17 @@ void echange(int* p1, int* p2)
 
 int main()
 {
-    int a=1, b=2,c=3;
+    int a=3, b=1,c=0;
 
-    if((c > b) && (a < b))
+    if((a > b))
+        echange(&a,&b);
+    if((a > c))
         echange(&a,&c);
-    else 
-    if((b > c) && (c > a))
-        echange(&b,&a);
+    if (b > c)
+        echange(&b,&c);
+
+    printf(" %d < %d < %d\n",a,b,c);
+        
+
     return 0;
 }

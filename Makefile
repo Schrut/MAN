@@ -1,5 +1,5 @@
 
-EXE:=GIMENEZ_factorielle
+EXE:=GIMENEZ_matrice
 
 all: clean $(EXE)
 
